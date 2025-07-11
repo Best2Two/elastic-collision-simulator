@@ -1,0 +1,75 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.43.34810.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/cppchillsolution/thisishowichill/circles.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "424c52d6c21761e151d76b8c73b218d4b05b1444d152ada809b303c573aa8499"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/cppchillsolution/thisishowichill/circles.h"
+          },
+          "hashes": {
+            "sha-256": "e387d462b44f73b41b894d44c15d209bfb71d9e9d61769e8b3281bf27c854f39"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/cppchillsolution/thisishowichill/circle.h"
+          },
+          "hashes": {
+            "sha-256": "eb507c15748d096b504b59bd5bf30695a77e2044b22a42e34b0237ac10a4b450"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/cppchillsolution/thisishowichill/libraries/include/glad/glad.h"
+          },
+          "hashes": {
+            "sha-256": "06e77d9903956ed2d322704870967b6bf7510ad6c2e523ff1b8c01639fe74448"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/cppchillsolution/thisishowichill/libraries/include/khr/khrplatform.h"
+          },
+          "hashes": {
+            "sha-256": "7b1e01aaa7ad8f6fc34b5c7bdf79ebf5189bb09e2c4d2e79fc5d350623d11e83"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/cppchillsolution/thisishowichill/libraries/include/glfw/glfw3.h"
+          },
+          "hashes": {
+            "sha-256": "aa370985f6b493bbe0358a36ab49f5780a6397c0209c6d98a62143dea595b73c"
+          }
+        }
+      ]
+    }
+  ]
+}
