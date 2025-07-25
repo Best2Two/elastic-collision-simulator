@@ -4,7 +4,7 @@ I had been studying academically for a long time and was feeling burned out due 
 So I decided to disconnect by building a project in something I hadn’t studied academically — relying only on brain power, my previous knowledge, and my experience in computer science.
 
 I made this project after watching only about 40 minutes of Victor Gordon's OpenGL Crash Course on FreeCodeCamp, and reading some basics about the physics behind elastic simulation,  
-Equal-sized circles collide with each other and change color based on which one is faster — the faster one gives its color to the slower one. I used a neat algorithm called Spatial Hashing, since all the circles occupy the same space on the grid, I found through research that Spatial Hashing is the best approach for this case.
+Equal-sized circles collide with each other and change color based on which one is faster — the faster one gives its color to the slower one. I used a neat algorithm for collision detection called **Spatial Hashing**, since all the circles occupy the same space on the grid, I found through research that Spatial Hashing is the best approach for this case.
 
 A quick GIF from the code output below.
 
